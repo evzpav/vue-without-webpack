@@ -1,14 +1,13 @@
-import UserList from './UserList.js';
+import SearchForm from './SearchForm.js';
 
 export default {
   name: `App`,
   components: {
-    UserList,
+    SearchForm,
   },
   template: `
-    <div class="container mx-auto p-4">
-      <h1>Users</h1>
-      <user-list class="mt-6"></user-list>
+    <div>
+      <search-form></search-form>
     </div>
   `,
 };
